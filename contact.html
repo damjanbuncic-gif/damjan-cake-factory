@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="assets/css/style.css" type = "text/css" rel="stylesheet"/>
+        <link href="assets/images/logo.png" type = "image/png" rel="icon"/>
+        <script src="https://kit.fontawesome.com/bdd3ee7d1b.js" crossorigin="anonymous"></script>
+        <title>Damjan's Cake Factory</title>
+    </head>
+    <body>
+        <!--Start Header section-->
+            <header>
+                <div class = "wrapper">
+                    <div id = "logo"><a href="index.html"><img src="assets/images/logo.png" alt="logo"></a></div>
+                    <div id = "nav"> 
+                        <ul>
+                            <li><a href="index.html" >Home</a></li>
+                            <li><a href="about-us.html">About Us</a></li>
+                            <li><a href="products.html">Products</a></li>
+                            <li><a href="contact.html" class="active">Contact</a></li>
+                            <li><a href="author.html">Author</a></li>
+                            <li><a href="Damjan Buncic 23-21-sajt.zip">ZIP</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </header>
+            <!--End Header section-->
+            <main>
+                <!--Start Image Cover and Heading section-->
+                <div id="contact-cover">
+                    <div class="wrapper">
+                        <div id="heading">
+                            <h1>Contact</h1>                            
+                        </div>
+                    </div>
+                </div>
+                <!--End Image Cover and Heading section-->
+                <!--Start Form section-->
+                <div id="delivery">
+                    <div class="wrapper">
+                        <div id="delivery-content">
+                            <div id="delivery-image">
+                                <img src="assets/images/contact-img.jpg" alt="cakes">
+                            </div>
+                            <div id="delivery-container">
+                                <h2>Order Delivery</h2>
+                                <p>Place your order for delivery. Fill out the form below with your information and we'll deliver your order as soon as possible.</p>
+                                <form id="delivery-form" action="#" method="get">
+                                    <div class="form-row">
+                                        <div class="form-group">
+                                            <label for="name">Name</label>
+                                            <input type="text" id="name" name="name" required>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="lastname">Last Name</label>
+                                            <input type="text" id="lastname" name="lastname" required>
+                                        </div>
+                                    </div>
+                                    <div class="form-row">
+                                        <div class="form-group">
+                                            <label for="email">Email</label>
+                                            <input type="email" id="email" name="email" required>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="phone">Phone Number</label>
+                                            <input type="tel" id="phone" name="phone" required>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="address">Address</label>
+                                        <input type="text" id="address" name="address" required>
+                                    </div>
+                                    <div class="form-row">
+                                        <div class="form-group">
+                                            <label for="cake">Select Cake</label>
+                                            <select id="cake" name="cake" required>
+                                                <option value="">Select a cake</option>
+                                                <option value="dark-chocolate">Dark Chocolate Indulgence</option>
+                                                <option value="chocolate-cream">Chocolate Cream Dream</option>
+                                                <option value="caramel-cheesecake">Caramel Cheesecake</option>
+                                                <option value="red-velvet">Red Velvet Classic</option>
+                                                <option value="strawberry">Strawberry Delight</option>
+                                                <option value="carrot">Carrot Classic</option>
+                                                <option value="chocolate-crunch">Chocolate Crunch Slice</option>
+                                                <option value="white-velvet">White Velvet Cake</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="payment">Payment Method</label>
+                                            <select id="payment" name="payment" required>
+                                                <option value="">Select payment method</option>
+                                                <option value="cash">Cash on Delivery</option>
+                                                <option value="card">Credit/Debit Card</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="comment">Additional Comment</label>
+                                        <textarea id="comment" name="comment" rows="4" placeholder="Any special instructions or requests..."></textarea>
+                                    </div>
+                                    <button type="submit" class="btn">Submit Order</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>    
+                <!--End Form section-->
+            </main>
+            <!--Start Footer section-->
+            <footer>
+                <div class="wrapper">
+                    <div class="networks">
+                        <h4>Contact</h4>
+                        <p>Phone: +381 60 123 4567</p>
+                        <p>E-mail: damjancakes&#64;gmail&#46;com</p>
+                        <p>Address: Mihajla Bulgakova 99 street</p>
+                    </div>
+                    <div id="footer-logo">
+                        <a href="index.html"><img src="assets/images/logo.png" alt="logo"></a>
+                    </div>
+                    <div class="networks" id="follow-us">
+                        <h4>Follow Us</h4>
+                        <div class="networks-links" >
+                            <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                            <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div id="copy">
+                    <hr/>
+                    <p>All rights reserved &copy; Damjan Cake Factory 2025. Resolution 1920x1080</p>
+                </div>
+
+            </footer>
+            <!--End Footer section-->
+    </body>
+</html>
